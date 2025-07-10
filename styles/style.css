@@ -134,8 +134,8 @@ object-fit: cover;
   justify-content: space-between;
 }
 .user-title{
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 45px;
+  font-weight: 700;
   color: #4E47FF;
   margin-top: 20px;
   margin-bottom: 12px;
@@ -146,9 +146,65 @@ object-fit: cover;
 /* user section ends */
 
 
+/* feedback */
+.feedback{
+  margin-top: 120px;
+}
+.img-container{
+  margin-top: 24px;
+}
+.feedback-cards{
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 243px;
+  margin: 0 auto;
+  gap: 16px;
+  box-shadow: 0 4px 10px rgba(58, 54, 209, 0.15);
+}
+.feedback-card{
+ padding-left: 20px;
+ width: 367px;
+ height: 243px;
+ background-color: #FFFFFF;
+}
+.feedback-main-title{
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  color: #252432;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.feedback-title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #252432;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.feedback-desc{
+  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-top: 12px;
+}
 
+.feedback-card-user{
+  display: flex;
+  gap: 8px;
+}
 
-
+.name{
+  font-weight: 600;
+  opacity: .6;
+  margin-left: 12px;
+}
+.date{
+  opacity: .5;
+  margin-left: 12px;
+}
 
 /* footer */
 /* .footer{
