@@ -17,7 +17,7 @@
 
 /* header */
 .header{
-  width: 99.5%;
+  width: 99.9%;
   height: 580px;
   background-image: url('/images/Hero-bg.png');
   background-size: cover;
@@ -36,6 +36,9 @@
 .hero-content {
   text-align: center;
   margin-top: 100px;
+}
+.logo{
+  font-weight: 900;
 }
 .header-title{
   font-size: 65px;
@@ -65,6 +68,52 @@
 .primary-color{
   color: #4E47FF;
 }
+
+
+
+
+
+/* action starts */
+.action-section{
+  max-width: 1140px;
+  height: 328px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  margin: 60px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.action-content {
+  max-width: 512px;
+}
+.action-title{
+  font-size: 42px;
+  color: #252432;
+  font-weight: 700;
+  margin-bottom: 24px
+}
+
+.action-desc{
+  font-size: 16px;
+  font-weight: 600;
+  color: #252432;
+  margin-bottom: 20px;
+}
+
+.action-img img{
+width: 403px;
+height: 328px;
+border-radius: 24px;
+object-fit: cover;
+}
+
+/* action ends */
+
+
+
+
+
 
 
 /* footer */
