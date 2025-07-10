@@ -111,6 +111,40 @@ object-fit: cover;
 /* action ends */
 
 
+/* user section starts */
+.user-section{
+  width: 1140px;
+  height: 206px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.2);
+  padding-top: 40px;
+  border-radius: 10px;
+}
+.user-main-title{
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+}
+.user-items{
+  display: flex;
+  width: 856px;
+  height: 206px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.user-title{
+  font-size: 40px;
+  font-weight: 800;
+  color: #4E47FF;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+.user-desc{
+  color: #252432;
+}
+/* user section ends */
+
 
 
 
