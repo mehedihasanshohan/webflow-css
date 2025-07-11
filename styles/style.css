@@ -336,31 +336,34 @@ object-fit: cover;
 
 
 /* footer */
-/* .footer{
-  width: 1356px;
+.footer{
+  width: 99%;
   height: 428px;
   background-color: #FFFFFF;
-  border: 1px solid red;
-  text-align: center;
-}
-.footer-content{
   margin: 0 auto;
-  height: 221px;
-  width: 531px;
-  border: 1px solid blue;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 8px;
 }
+
 .footer-title{
-  font-size: 50px;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 60px;
+  margin-bottom: 25px;
 }
 .footer-desc{
-  color: #8987A1;
+  color: #7e7e7e;
+  text-align: center;
 }
 .footer-links{
   display: flex;
-  justify-content: space-between;
-  border: 1px solid blue;
-} */
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 532px;
+  cursor: pointer;
+}
+.footer-links a{
+  text-decoration: none;
+  color: #473294;
+}
