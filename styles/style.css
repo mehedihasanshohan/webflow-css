@@ -47,6 +47,10 @@ body{
   color: #252432;
   margin-bottom: 20px;
 }
+.span{
+  color: orangered;
+
+}
 
 .btn{
  background-color: #4E47FF;
@@ -81,8 +85,8 @@ body{
   height: 328px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 60px auto;
+  justify-content: space-between;
+  margin: 120px auto;
 }
 .action-content {
   max-width: 512px;
@@ -114,7 +118,7 @@ object-fit: cover;
 /* user section starts */
 .user-section{
   width: 1140px;
-  height: 206px;
+  height: 256px;
   margin: 0 auto;
   background-color: rgb(215, 219, 224);
   padding-top: 40px;
@@ -125,6 +129,7 @@ object-fit: cover;
   font-size: 38px;
   font-weight: 700;
   color: #252432;
+  margin-top: 20px;
 }
 .user-items{
   display: flex;
@@ -137,11 +142,11 @@ object-fit: cover;
   font-size: 45px;
   font-weight: 700;
   color: #4E47FF;
-  margin-top: 20px;
-  margin-bottom: 12px;
+  margin-top: 40px;
+  margin-bottom: 22px;
 }
 .user-desc{
-  color: #252432;
+  color: #7e7e7e;
 }
 /* user section ends */
 
@@ -197,6 +202,9 @@ object-fit: cover;
   display: flex;
   gap: 8px;
 }
+.feedback-card-user img{
+  border-radius: 50%;
+}
 
 .name{
   font-weight: 600;
@@ -215,17 +223,19 @@ object-fit: cover;
   max-width: 1140px;
   margin: 120px auto;
   text-align: center;
-  padding: 20px;
   background-color: #FFFFFF;
   border-radius: 10px;
   /* padding: 60px 20px; */
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 .focus-title {
-  font-size: 32px;
+  font-size: 52px;
   font-weight: 700;
   color: #252432;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .focus-subtitle {
