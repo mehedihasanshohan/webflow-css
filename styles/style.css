@@ -5,7 +5,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+body{
+  background-color: #f5f8ff;
+}
 
 .raleway-fonts {
   font-family: "Raleway", sans-serif;
@@ -80,9 +82,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #FFFFFF;
   margin: 60px auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 .action-content {
   max-width: 512px;
@@ -255,13 +255,40 @@ object-fit: cover;
   display: block;
   margin: 0 auto;
 }
-
 /* focus ends */
 
 
-
-
-
+/* contact starts */
+.contact{
+  display: flex;
+  gap: 30px;
+  max-width: 1140px;
+  height: 600px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+.contact-title{
+  font-size: 97px;
+  font-weight: 700;
+  color: #252432;
+  margin: auto;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 497px;
+  height: 490px;
+  margin-top: 8px;
+}
+.form input{
+  background-color: #FFFFFF;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+/* contsacts ends */
 
 /* footer */
 /* .footer{
