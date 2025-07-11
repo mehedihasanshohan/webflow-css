@@ -21,7 +21,7 @@ body{
 .header{
   width: 99.9%;
   height: 580px;
-  background-image: url('./images/Hero-bg.png');
+  background-image: url('../images/hero-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
