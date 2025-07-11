@@ -95,10 +95,10 @@ body{
 }
 
 .action-desc{
-  font-size: 16px;
   font-weight: 600;
-  color: #252432;
   margin-bottom: 20px;
+  font-size: 16px;
+  color: #7e7e7e;
 }
 
 .action-img img{
@@ -116,7 +116,7 @@ object-fit: cover;
   width: 1140px;
   height: 206px;
   margin: 0 auto;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgb(215, 219, 224);
   padding-top: 40px;
   border-radius: 10px;
 }
@@ -160,13 +160,14 @@ object-fit: cover;
   height: 243px;
   margin: 0 auto;
   gap: 16px;
-  box-shadow: 0 4px 10px rgba(58, 54, 209, 0.15);
 }
 .feedback-card{
  padding-left: 20px;
  width: 367px;
  height: 243px;
  background-color: #FFFFFF;
+ border-radius: 8px;
+ margin-top: 30px;
 }
 .feedback-main-title{
   font-size: 38px;
@@ -187,6 +188,7 @@ object-fit: cover;
   font-weight: 600;
   font-size: 16px;
   font-weight: 500;
+  color: #7e7e7e;
   margin-bottom: 16px;
   margin-top: 12px;
 }
@@ -211,9 +213,12 @@ object-fit: cover;
 /* focus starts */
 .focus-section {
   max-width: 1140px;
-  margin: 80px auto;
+  margin: 120px auto;
   text-align: center;
   padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  /* padding: 60px 20px; */
 }
 
 .focus-title {
@@ -259,17 +264,16 @@ object-fit: cover;
 
 
 /* contact starts */
-.contact{
+.contact-section{
+  max-width: 1140px;
   display: flex;
   gap: 30px;
-  max-width: 1140px;
   height: 600px;
-  border: 1px solid red;
   margin: 0 auto;
 }
 .contact-title{
   font-size: 97px;
-  font-weight: 700;
+  font-weight: bold;
   color: #252432;
   margin: auto;
 }
@@ -277,18 +281,49 @@ object-fit: cover;
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 497px;
-  height: 490px;
-  margin-top: 8px;
+  width: 100%;
+  max-width: 490px;
 }
 .form input{
-  background-color: #FFFFFF;
-  padding: 12px;
-  border: 1px solid gray;
-  border-radius: 6px;
-  margin-top: 8px;
+  height: 70px;
+  border: gray;
+  border-radius: 8px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  padding-left: 12px;
 }
+.form label{
+  font-size: 18px;
+  color: #252432;
+  margin-bottom: 8px;
+}
+
+.form textarea{
+  color: #FFFFFF;
+  height: 135px;
+  margin-bottom: 30px;
+  border: none;
+  padding-left: 12px;
+  padding-top: 16px;
+  border-radius: 8px;
+}
+.contact-btn{
+  height: 70px;
+}
+
+
+
 /* contsacts ends */
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 /* .footer{
